@@ -9,31 +9,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00000000000000000000000000000000, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a7cda83e754a4b62ac83c98ead8347e, type: 3}
   m_Name: Surgeonfish_Data
   m_EditorClassIdentifier: FishMuseum.Data.FishData
-  displayName: "Cerrah Balığı (Mavi Tang)"
-  scientificName: "Paracanthurus hepatus"
-  habitat: "Hint-Pasifik ve Kızıldeniz, mercan resifleri (2–40 m derinlik)"
-  diet: "Herbivor – esas olarak fitoplankton ve alg tabanlı beslenme"
-  summary: "Regal tang ya da Mavi Tang olarak da bilinen Cerrah Balığı, parlak mavi rengi, sarı kuyruk yüzgeci ve siyah palet deseniyle kolayca tanınır. Kuyruk sapındaki keskin dikensi uzantısı (skalpel benzeri) ona 'cerrah' adını kazandırmıştır; tehdit altında bu yapıyı savunma aracı olarak kullanır. Mercan resiflerinin sağlığı için kritik önem taşır; aşırı alg büyümesini kontrol eder."
+  displayName: "Cerrah Bal\u0131\u011F\u0131 (Mavi Tang)"
+  scientificName: Paracanthurus hepatus
+  habitat: "Hint-Pasifik ve K\u0131z\u0131ldeniz, mercan resifleri (2-40 m derinlik)"
+  diet: "Herbivor - esas olarak fitoplankton ve alg tabanl\u0131 beslenme"
+  summary: "Regal tang ya da Mavi Tang olarak da bilinen Cerrah Bal\u0131\u011F\u0131, parlak mavi rengi, sar\u0131 kuyruk y\xFCzgeci ve siyah palet deseniyle kolayca tan\u0131n\u0131r. Kuyruk sap\u0131ndaki keskin dikensi uzant\u0131s\u0131 ona cerrah ad\u0131n\u0131 kazand\u0131rm\u0131\u015Ft\u0131r."
   menuIcon: {fileID: 0}
   prefab: {fileID: 0}
   narrationClip: {fileID: 0}
   parts:
-  - partName: "Dorsal Yüzgeci"
-    infoText: "Sırt yüzgeci uzun ve süreklidir; yüzme stabilitesini sağlar. 26–28 yumuşak ışından oluşur."
-    childObjectName: "Part_DorsalFin"
+  - partName: "Dorsal Y\xFCzgeci"
+    infoText: "S\u0131rt y\xFCzgeci uzun ve s\xFCreklidir; y\xFCzme stabilitesini sa\u011Flar. 26-28 yumu\u015Fak \u0131\u015F\u0131ndan olu\u015Fur."
+    childObjectName: Part_DorsalFin
     tooltipOffset: {x: 0, y: 0.1, z: 0}
   - partName: "Skalpel Diken"
-    infoText: "Kuyruk sapındaki keskin kemik uzantısı (caudal spine), savunma amaçlı kullanılır. Dokunmak tehlikeli olabilir!"
-    childObjectName: "Part_CaudalSpine"
+    infoText: "Kuyruk sap\u0131ndaki keskin kemik uzant\u0131s\u0131 savunma ama\xE7l\u0131 kullan\u0131l\u0131r. Dokunmak tehlikeli olabilir!"
+    childObjectName: Part_CaudalSpine
     tooltipOffset: {x: -0.05, y: 0.03, z: 0}
-  - partName: "Göz"
-    infoText: "Geniş görüş alanı sunan büyük gözler, yırtıcıları erkenden fark etmeyi sağlar. Iris sarımsı tonlardadır."
-    childObjectName: "Part_Eye"
+  - partName: "G\xF6z"
+    infoText: "Geni\u015F g\xF6r\xFC\u015F alan\u0131 sunan b\xFCy\xFCk g\xF6zler, y\u0131rt\u0131c\u0131lar\u0131 erkenden fark etmeyi sa\u011Flar."
+    childObjectName: Part_Eye
     tooltipOffset: {x: 0.04, y: 0.05, z: 0.05}
-  - partName: "Pektoral Yüzgeç"
-    infoText: "Göğüs yüzgeci (pectoral fin) manevra ve hız için kullanılır. Mavi Tang bu yüzgeçleri kanat gibi çırparak hızlıca yön değiştirir."
-    childObjectName: "Part_PectoralFin"
+  - partName: "Pektoral Y\xFCzge\xE7"
+    infoText: "G\xF6\u011F\xFCs y\xFCzgeci manevra ve h\u0131z i\xE7in kullan\u0131l\u0131r. Mavi Tang bu y\xFCzge\xE7leri kanat gibi \xE7\u0131rparak h\u0131zl\u0131ca y\xF6n de\u011Fi\u015Ftirir."
+    childObjectName: Part_PectoralFin
     tooltipOffset: {x: 0.02, y: 0, z: 0.06}

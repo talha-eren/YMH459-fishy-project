@@ -9,31 +9,31 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 00000000000000000000000000000000, type: 3}
+  m_Script: {fileID: 11500000, guid: 6a7cda83e754a4b62ac83c98ead8347e, type: 3}
   m_Name: Clownfish_Data
   m_EditorClassIdentifier: FishMuseum.Data.FishData
-  displayName: "Palyaço Balığı"
-  scientificName: "Amphiprion ocellaris"
-  habitat: "Hint ve Pasifik Okyanusları, sığ mercan resifleri (0–15 m derinlik)"
-  diet: "Omnivor – zooplankton, deniz yosunu ve küçük omurgasızlar"
-  summary: "Palyaço balığı, anemon balığı olarak da bilinir. Deniz şakayıkları (anemone) ile simbiyotik bir ilişki içinde yaşar; zehirli tentaküller onu etkilemez. Turuncu rengi ve üç beyaz çizgisi sayesinde kolayca tanınır. Sosyal yapıları ilginçtir: grupta baskın dişi ölürse, baskın erkek cinsiyetini dişiye dönüştürebilir. IUCN'e göre 'En Az Endişe Verici' türler arasındadır."
+  displayName: "Palya\xE7o Bal\u0131\u011F\u0131"
+  scientificName: Amphiprion ocellaris
+  habitat: "Hint ve Pasifik Okyanuslar\u0131, s\u0131\u011F mercan resifleri (0-15 m derinlik)"
+  diet: "Omnivor - zooplankton, deniz yosunu ve k\xFC\xE7\xFCk omurgas\u0131zlar"
+  summary: "Palya\xE7o bal\u0131\u011F\u0131, anemon bal\u0131\u011F\u0131 olarak da bilinir. Deniz \u015Fakay\u0131klar\u0131 ile simbiyotik bir ili\u015Fki i\xE7inde ya\u015Far; zehirli tentakuller onu etkilemez. Turuncu rengi ve \xFC\xE7 beyaz \xE7izgisi sayesinde kolayca tan\u0131n\u0131r."
   menuIcon: {fileID: 0}
   prefab: {fileID: 0}
   narrationClip: {fileID: 0}
   parts:
-  - partName: "Dorsal Yüzgeci"
-    infoText: "Sırt yüzgeci (dorsal fin), yüzme yönünü stabilize eder. Palyaço balığında 10–11 yumuşak ışın bulunur."
-    childObjectName: "Part_DorsalFin"
+  - partName: "Dorsal Y\xFCzgeci"
+    infoText: "S\u0131rt y\xFCzgeci (dorsal fin), y\xFCzme y\xF6n\xFCn\xFC stabilize eder. Palya\xE7o bal\u0131\u011F\u0131nda 10-11 yumu\u015Fak \u0131\u015F\u0131n bulunur."
+    childObjectName: Part_DorsalFin
     tooltipOffset: {x: 0, y: 0.08, z: 0}
-  - partName: "Ağız"
-    infoText: "Küçük terminal ağzıyla plankton ve yosun avlar. Dişleri görece körelmiş, bitki parçalamaya uygundur."
-    childObjectName: "Part_Mouth"
+  - partName: "\u0130\u011F\u0131z (A\u011F\u0131z)"
+    infoText: "K\xFC\xE7\xFCk terminal a\u011Fz\u0131yla plankton ve yosun avlar. Di\u015Fleri g\xF6rece k\xF6relmi\u015F, bitki par\xE7alamaya uygundur."
+    childObjectName: Part_Mouth
     tooltipOffset: {x: 0.04, y: 0.02, z: 0.06}
-  - partName: "Göz"
-    infoText: "Büyük, yuvarlak gözleri 180° görüş alanı sağlar. UV ışığını algılayabilir; bu özellik avlanmada kullanılır."
-    childObjectName: "Part_Eye"
+  - partName: "G\xF6z"
+    infoText: "B\xFCy\xFCk, yuvarlak g\xF6zleri 180 derece g\xF6r\xFC\u015F alan\u0131 sa\u011Flar. UV \u0131\u015F\u0131\u011F\u0131n\u0131 alg\u0131layabilir."
+    childObjectName: Part_Eye
     tooltipOffset: {x: 0.03, y: 0.05, z: 0.05}
-  - partName: "Kuyruk Yüzgeci"
-    infoText: "Yuvarlak kuyruk yüzgeci (caudal fin) ileri–geri manevra için kullanılır. Ani dönüşler ve anemon içine dalış bu yüzgeçle sağlanır."
-    childObjectName: "Part_TailFin"
+  - partName: "Kuyruk Y\xFCzgeci"
+    infoText: "Yuvarlak kuyruk y\xFCzgeci ileri-geri manevra i\xE7in kullan\u0131l\u0131r. Ani d\xF6n\xFC\u015Fler ve anemon i\xE7ine dali\u015F bu y\xFCzge\xE7le sa\u011Flan\u0131r."
+    childObjectName: Part_TailFin
     tooltipOffset: {x: -0.08, y: 0.04, z: 0}
